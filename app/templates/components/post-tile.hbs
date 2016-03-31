@@ -6,5 +6,6 @@
   <p>
     {{post.blog}}
   </p>
+  {{update-post post=post update="update"}}
   <button class="btn-danger" {{action 'delete' post}}>Delete Post</button>
 </li>
