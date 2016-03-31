@@ -1,17 +1,10 @@
 {{outlet}}
 <div id="content">
   <h2>News</h2>
-
+  {{new-post save2="save3"}}
   <ul>
     {{#each model as |post|}}
-    <li>
-      <h3>{{post.title}} - Dated: {{post.date}}</h3>
-      <img class="blog-photo" src={{post.image}} alt={{post.title}} />
-      <p>
-        {{post.blog}}
-      </p>
-      <hr>
-    </li>
+      {{post-tile post=post destroyPost="destroyPost"}}
     {{/each}}
   </ul>
 </div>

@@ -48,6 +48,7 @@ hr {
   border-left: 10px solid #ddd;
   border-right: 10px solid #ddd
 }
+
 #logo {
   max-width: 300px;
 }
@@ -61,5 +62,8 @@ hr {
 }
 
 .blog-photo {
+  border-radius: 5px;
+  display: block;
+  margin: auto;
   max-width: 400px;
 }

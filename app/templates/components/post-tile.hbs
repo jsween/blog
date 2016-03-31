@@ -1,1 +1,10 @@
 {{yield}}
+<li>
+  <hr>
+  <h3>{{post.title}} - Dated: {{post.date}}</h3>
+  <img class="blog-photo" src={{post.image}} alt={{post.title}} />
+  <p>
+    {{post.blog}}
+  </p>
+  <button class="btn-danger" {{action 'delete' post}}>Delete Post</button>
+</li>
