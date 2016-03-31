@@ -1,4 +1,61 @@
+* {
+  font-family: 'Indie Flower', cursive;
+  line-height: 1.5;
+  font-size: 2.1rem;
+}
+
+body {
+  background-color: #555;
+}
+
+nav {
+  background-color: #ddd;
+  border-bottom: 5px solid #222;
+}
+
+nav a {
+  font-size: 2em;
+  margin-right: 15px;
+}
+
+footer {
+  padding: 15px 0 30px;
+  background-color: firebrick;
+  font-size: 2em;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: firebrick;
+}
+
+a:hover {
+  color: black;
+}
+
+hr {
+  border-bottom: 1px solid #222;
+}
+
+#content {
+  background-color: #eee;
+  padding: 5px 30px 5px;
+}
 #logo {
-  max-width: 350px;
-  max-height: 150px;
+  max-width: 300px;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Indie Flower', cursive;
+}
+
+.blog-photo {
+  max-width: 400px;
 }

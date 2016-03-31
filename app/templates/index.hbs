@@ -1,1 +1,17 @@
 {{outlet}}
+<div id="content">
+  <h2>News</h2>
+
+  <ul>
+    {{#each model as |post|}}
+    <li>
+      <h3>{{post.title}} - Dated: {{post.date}}</h3>
+      <img class="blog-photo" src={{post.image}} alt={{post.title}} />
+      <p>
+        {{post.blog}}
+      </p>
+      <hr>
+    </li>
+    {{/each}}
+  </ul>
+</div>
